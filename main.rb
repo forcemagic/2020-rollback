@@ -1,3 +1,3 @@
 require 'world'
 
-World.year(2020).rollback!
+World.time.advance! 1.years
